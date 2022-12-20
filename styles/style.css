@@ -129,6 +129,16 @@ border-radius: 17px;
 
 
 }
+
+.btn:hover{
+    border-width: 3px;
+
+}
+
+.btn:active{
+    transform: scale(1.04);
+
+}
  .dark {
     background-color: #0A3871;
     color:#fff;
@@ -140,5 +150,31 @@ border-radius: 17px;
     color:#0A3871;
     border-color:#0A3871;
     border-width: 1px;
+
+  }
+
+  .empty {
+    display: none;
+  }
+
+.textOutputCrypted { 
+   
+    padding: 20px;
+     max-width: 320px;
+  height: 90%;
+  width: 320px;
+  background-color: #fff;
+  border-radius: 32px;
+
+  }
+
+  .textCrypted {
+    height: 85%;
+    color:#0A3871;
+    
+  }
+  .buttonCrypted{
+    margin: 0 auto;
+    width: 100%;
 
   }
