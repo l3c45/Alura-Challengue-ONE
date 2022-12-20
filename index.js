@@ -30,8 +30,8 @@ const desencriptar=(value)=>{
 btnEncriptar.addEventListener("click",()=>{
     const text=encriptar(textInput.value)
     textCrypted.innerHTML=(text)
-     textOutputContainer.classList.toggle("empty")
-     textOutputCrypContainer.classList.toggle("empty")
+     textOutputContainer.classList.add("empty")
+     textOutputCrypContainer.classList.remove("empty")
 })
 
 btnDesencriptar.addEventListener("click",()=>{
@@ -44,5 +44,11 @@ copyBtn.addEventListener("click",()=>{
     const text=textCrypted.textContent
     navigator.clipboard.writeText(text);
     textInput.value=(text)
+    textCrypted.textContent=""
 
+})
+
+textInput.addEventListener("focus",()=>{
+    console.log("f")
+    textCrypted.textContent=""
 })
