@@ -5,9 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
+    <script src="https://kit.fontawesome.com/5858364fbf.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 <body>
+    <img class="logo" src="public/Logo.png" alt="logo alura">
+    <main class="userInput">
+        <textarea autofocus cols="40" rows="5" type="text"class="input" placeholder="Ingrese texto aqui ">
+        </textarea>
+       <div class="bottom">
+        <span class="spoiler"><i class="fa-sharp fa-solid fa-circle-info"></i>Solo letras minúsculas y sin acentos</span>
+       <div class="btnContainer">
+       <button class="btn dark">Encriptar</button>
+        <button class="btn ligth">Desencriptar</button>
+    </div> 
+</div>
+
+    </main>
+    <aside class="userOutput"> 
+        <div class="textOutput">
+            <img class="imgOutput" alt="persona no encontro nada " src="public/Muñeco.png">
+            <div class="text">
+            <span class="line title">Ningun mensaje fue encontrado</span>
+            <span class="line subtitle">Ingresa el texto que deseas encriptar o desencriptar</span>
+        </div>
+
+        </div>
+
+    </aside>
     <script src="index.js"></script>
 </body>
 </html>

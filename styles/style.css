@@ -1,8 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;700&display=swap');
+
 * {
     box-sizing: border-box;
 }
 
 body {
-    background-color: red;
+    font-family: 'Inter', sans-serif;
+    margin:0;
+    background-color: #E5E5E5;
+display: flex;
+height: 100vh;
+}
+
+.userInput {
+   
+    
+}
+
+.userOutput {
+    
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    height: 100%;
+    width: 40%;
+}
+.textOutput {
+    max-width: 320px;
+    height: 90%;
+    width: 320px;
+    background-color: #fff;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgOutput {
+    width: 90%;
+}
+.text {
+    width: 80%;
+}
+.line {
+    display: block;
+    text-align: center;
+}
+.title {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 0.9rem;
+}
+
+.logo {
+    margin-top: 2rem;
+    width: 120px;
+    height: 48px;
+}
+
+.userInput {
+
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 60%;
+
 
 }
+
+.input ,input:active,input:focus {
+    margin-top: 100px;
+    width: 90%;
+    font-size: 1.5rem;
+    background-color: transparent;
+    border:none;
+    outline:none;
+    height: 100%;
+    word-break: break-word;
+    resize: none;
+}
+
+.input::placeholder {
+    color:#0A3871;
+    opacity: 1;
+}
+
+.bottom {
+    margin-bottom: 40px;
+    width: 90%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.spoiler {
+    
+    width: 100%;
+    text-align: left;
+    font-size: 0.8rem;
+    margin: 10px 0;
+
+}
+
+.spoiler i {
+    margin: 0 5px;
+}
+
+.btnContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.btn {
+    height:50px;
+width: 40%;
+border-radius: 17px;
+
+
+}
+ .dark {
+    background-color: #0A3871;
+    color:#fff;
+    border-color: #0A3871;
+
+ }
+  .ligth {
+    background-color: #fff;
+    color:#0A3871;
+    border-color:#0A3871;
+    border-width: 1px;
+
+  }
