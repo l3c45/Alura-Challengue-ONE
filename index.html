@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
     <script src="https://kit.fontawesome.com/5858364fbf.js" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <title>Encriptador de Texto</title>
 </head>
 <body>
     <img class="logo" src="public/Logo.png" alt="logo alura">
     <main class="userInput">
-        <textarea autofocus cols="40" rows="5" type="text"class="input" id="text-input"  placeholder="Ingrese texto aqui ">
+        <textarea autofocus cols="40" rows="10" type="text"class="input" id="text-input"  placeholder="Ingrese texto aqui ">
         </textarea>
        <div class="bottom">
         <span class="spoiler"><i class="fa-sharp fa-solid fa-circle-info"></i>Solo letras minúsculas y sin acentos</span>
@@ -22,7 +22,7 @@
 </div>
 
     </main>
-    <aside class="userOutput"> 
+    <div class="userOutput"> 
         <div class="textOutput ">
             <img class="imgOutput " alt="persona no encontro nada " src="public/Muñeco.png">
             <div class="text ">
@@ -32,11 +32,11 @@
         </div>
 
         <div class="textOutputCrypted empty">
-            <p class="textCrypted ">AAAAA</p>
+            <p class="textCrypted "></p>
             <button class=" btn buttonCrypted ligth">Copiar</button>
         </div>
 
-    </aside>
+    </div>
     <script src="index.js"></script>
 </body>
 </html>

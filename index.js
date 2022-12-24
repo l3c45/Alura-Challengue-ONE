@@ -28,10 +28,14 @@ const desencriptar=(value)=>{
 }
 
 btnEncriptar.addEventListener("click",()=>{
+//     const regex=/\s+$/g
+//  console.log(regex.test(textInput.value))
+//     if(!regex.test(textInput.value)){
     const text=encriptar(textInput.value)
     textCrypted.innerHTML=(text)
      textOutputContainer.classList.add("empty")
      textOutputCrypContainer.classList.remove("empty")
+    //}
 })
 
 btnDesencriptar.addEventListener("click",()=>{
@@ -49,6 +53,5 @@ copyBtn.addEventListener("click",()=>{
 })
 
 textInput.addEventListener("focus",()=>{
-    console.log("f")
     textCrypted.textContent=""
 })
