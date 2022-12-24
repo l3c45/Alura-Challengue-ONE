@@ -162,7 +162,7 @@ input:focus {
   width: 100%;
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   body {
     display: flex;
     flex-direction: column;
@@ -201,12 +201,13 @@ input:focus {
     overflow: hidden;
   }
   .input {
+    overflow: hidden;
     min-height: auto;
     height: auto;
   }
 }
 
-@media (max-width: 375px) {
+@media only screen and (max-width: 375px) {
     body {
         margin: 0;
       }
