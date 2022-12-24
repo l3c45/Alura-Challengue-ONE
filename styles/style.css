@@ -206,4 +206,29 @@ input:focus {
   }
 }
 
+@media (max-width: 375px) {
+    body {
+        margin: 0;
+      }
+     
+      .userInput {
+        width: 100%;
+        height: auto;
+        min-height: 5rem;
+      }
 
+      .bottom{
+        margin: 0;
+      }
+
+      .btnContainer{
+        min-height: 7rem;
+        margin: 0.5rem 0;
+        flex-direction: column;
+      }
+
+      .btn {
+        width: 100%;
+      }
+      
+  }
